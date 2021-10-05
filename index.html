@@ -14,7 +14,10 @@
   </head>
   <body>
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-light"
+      id="nav"
+    >
       <div class="container d-flex justify-content-between">
         <div>
           <a class="navbar-brand" href="#">
@@ -37,16 +40,32 @@
             asperiores adipisci, blanditiis placeat ipsum pariatur provident sit
             eius saepe esse.
           </p>
-          <form></form>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <button type="submit" class="btn btn-Secondary bg-info">
+              Submit
+            </button>
+          </form>
         </div>
-        <div class="bg-secondary col-8">
-          <img
-            src="img/gabriel-santos-GBVDilE8yvI-unsplash.jpg"
-            class="w-100"
-          />
-          <!--
-
-
+        <div
+          class="
+            bg-secondary
+            col-8
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
           <div
             id="carouselExampleSlidesOnly"
             class="carousel slide carousel-fade align-middle d-block"
@@ -76,11 +95,35 @@
               </div>
             </div>
           </div>
-                    -->
         </div>
       </div>
     </div>
+    <!--Two Cards-->
+    <div class="container d-flex justify-content-around" id="two-cards">
+      <div class="card" style="width: 18rem">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
 
+      <div class="card" style="width: 18rem">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
