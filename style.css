@@ -9,3 +9,7 @@
 #two-cards {
   height: 90vh;
 }
+
+.card {
+  height: 75%;
+}
